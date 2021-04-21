@@ -2,5 +2,4 @@ language: java
 jdk:
  - oraclejdk11
 
-script:
- - "mvn clean package"
+script: ant build
