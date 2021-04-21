@@ -1,6 +1,5 @@
 language: java
 jdk:
- - oraclejdk8
- - openjdk7
+ - oraclejdk11
 
-script: -mvn clean install
+script: ant build
